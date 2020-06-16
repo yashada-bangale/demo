@@ -1,14 +1,28 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
+  "eventId": "3o9jBzq1SmOGmmsDsqyyeQ",
+  "eventTime": "2020-01-17T21:23:56.000Z",
+  "eventType": "com.okta.user.credential.password.import",
+  "eventTypeVersion": "1.0",
+  "contentType": "application/json",
+  "cloudEventVersion": "0.1",
+  "source": "https://yourOktaDomain/api/v1/inlineHooks/cal2xd5phv9fsPLcF0g7",
+  "data": {
+    "context": {
+      "request": {
+        "id": "XiIl6wn7005Rr@fjYqeC7AAABxw",
+        "method": "POST",
+        "url": {
+          "value": "/api/v1/authn"
+        },
+        "ipAddress": "98.124.153.138"
+      },
+      "credential": {
+        "username": "hh21@test.com",
+        "password": "Password@1"
+      }
+    },
+    "action": {
+      "credential": "UNVERIFIED"
+    }
   }
 }
