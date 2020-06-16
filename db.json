@@ -3,7 +3,7 @@
         {
             "type": "com.okta.action.update",
             "value": {
-                "credential": "UNVERIFIED"
+                "credential": "VERIFIED"
             }
         }
     ]
